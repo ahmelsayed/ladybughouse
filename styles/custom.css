@@ -27,11 +27,32 @@
 
 /*Text over slider*/
 
-.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-title, .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-title{
-	display:block!important;
+.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-title,
+.has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-title{
+	display:none!important;
 	font-size:45px!important;
 	font-family:"proxima-nova"!important;
 	text-transform:uppercase;
+}
+.has-promoted-gallery #promotedGalleryWrapper{
+	position: relative;
+}
+body:not(.has-promoted-gallery) #promotedGalleryWrapper > h1{
+	display: none!important;
+}
+.has-promoted-gallery #promotedGalleryWrapper > h1{
+	font-size: 65px;
+	font-family:"proxima-nova"!important;
+	text-transform:uppercase;
+	font-weight: bold;
+	position: absolute;
+	z-index: 1000;
+	top: 50%;
+	width: 100%;
+	margin-top: -20px;
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
 }
 
 /***********Change speed transition of Header Slides: ***********/
@@ -65,4 +86,6 @@
   font-style:italic;
   font-size:14px;
 }
+
+
 
