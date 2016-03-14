@@ -1,0 +1,66 @@
+/***********Give today button***********/
+
+#mainNavigation > .collection:last-child{
+  position:fixed;
+  top:15px;
+  right:25px;
+  background-color:none!important;
+
+}
+#mainNavigation > .collection:last-child > a,
+.enable-nav-button #headerNav nav>div:not(.folder):last-child a{
+  background-color:transparent!important;
+  font-size:0!important;
+  background-image: url(http://static1.squarespace.com/static/5399c64ce4b0ce64b1989088/t/56e743a027d4bd5fc538d594/1457996704069/GiveTodayIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 100px;
+  width:100px;
+  border-radius: 0!important;
+ }
+#mainNavigation {
+      padding-right: 160px;
+}
+
+/*Text over slider*/
+
+.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-title, .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-title{
+  display:block!important;
+  font-size:45px!important;
+  font-family:"proxima-nova"!important;
+  text-transform:uppercase;
+}
+
+/***********Change speed transition of Header Slides: ***********/
+
+ .slide {
+     visibility: visible !important;
+     -webkit-transition: opacity 4s ease-in-out;
+     -moz-transition: opacity 4s ease-in-out;
+     -o-transition: opacity 4s ease-in-out;
+     transition: opacity 4s ease-in-out;
+ }
+/***********Blog Detail Page***********/
+
+.blog-item .post-title{
+  font-size:25px;
+}
+.blog-item .blog-item-wrapper{
+  min-height:200px;
+  /*To occupy the space that the date and title had before being removed.*/
+}
+.blog-item time{
+  background-color:#412251;
+  padding:2px 7px;
+  color:white;
+  font-size:15px;
+  display:inline-block;
+  margin-bottom:1em;
+
+}
+.blog-item .post-author{
+  font-style:italic;
+  font-size:14px;
+}
+
