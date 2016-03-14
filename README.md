@@ -8,4 +8,9 @@ ___
 
 ###changelog
 
-***March 14, 2016*** : Repository created - Moved blog item date and title from header to article section.
+***March 14, 2016*** : 
+- Repository created 
+- Moved blog item date and title from header to article section 
+- Added a `custom.css` file under `/styles/` and edited the `template.conf` in order to inject it in the site.
+- Migrated all the Custom Styles from the Squarespace platform to be put in the `custom.css` file. (Note: images still have to be uploaded there.)
+- Changed Give Today button to have the ladybug. (desktop and mobile)
