@@ -237,5 +237,8 @@
     {.if authenticatedAccount}<squarespace:script src="authenticated.js" combo="false" />{.end}
     {squarespace-footers}
 
+    <squarespace:script src="jquery.js" combo="true" />
+    <squarespace:script src="custom.js" combo="true" />
+
   </body>
 </html>

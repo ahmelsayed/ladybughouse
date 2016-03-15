@@ -15,3 +15,8 @@ ___
 - Migrated all the Custom Styles from the Squarespace platform to be put in the `custom.css` file. (Note: images still have to be uploaded there.)
 - Changed Give Today button to have the ladybug. (desktop and mobile)
 - Fixed the Celebrate Every Day heading on homepage. (Note: it's now a hardcoded `<h1>` and absolute positioned over the slider.)
+
+***March 15, 2016*** : 
+- Added jQuery (`jquery.js` file under `/scripts` and added instance on `template.conf`).
+- Added a `custom.js` file to add custom scripts. Also edited `template.conf` about this.
+- Added styles for Give Today Popup. 
